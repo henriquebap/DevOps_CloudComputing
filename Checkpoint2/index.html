@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uma Pagina estatica</title>
+    <title>Minha Página Estática</title>
+    <link rel="stylesheet" href="estilo/styles.css">
 </head>
 <body>
-    <h1>Hello World w a pagina estatica</h1>
-    <p>Esta é uma página estática servida pelo Nginx em um contêiner Docker.</p>
+    <div class="container">
+        <header>
+            <h1>Minha Página Estática</h1>
+        </header>
+        <div class="content">
+            <p>Esta é uma página estática servida pelo Nginx em um contêiner Docker.</p>
+            <img src="imagem/tenis.jpg" alt="Imagem de exemplo">
+        </div>
+    </div>
 </body>
 </html>
